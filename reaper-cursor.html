@@ -277,17 +277,17 @@
     ) {
       this.x = x; //Starting position
       this.y = y;
-      this.absAngle = angle; //Staring angle
-      this.fSpeed = 0; //Forward speed
-      this.fAccel = fAccel; //Force when moving forward
-      this.fFric = fFric; //Friction against forward motion
-      this.fRes = fRes; //Resistance to motion
-      this.fThresh = fThresh; //minimum distance to target to keep moving forward
+      this.absAngle = angle; //Starting angle
+      this.fSpeed = 0; //Velocidade em linha reta
+      this.fAccel = fAccel; //Foça quando movendo para frente
+      this.fFric = fFric; //Frictão contra movimento
+      this.fRes = fRes; //Resistencia dependente da velocidade
+      this.fThresh = fThresh; //minimo de distancia para mover
       this.rSpeed = 0; //Rotational speed
-      this.rAccel = rAccel; //Force when rotating
-      this.rFric = rFric; //Friction against rotation
-      this.rRes = rRes; //Resistance to rotation
-      this.rThresh = rThresh; //Maximum angle difference before rotation
+      this.rAccel = rAccel; //Força quando rotacionando
+      this.rFric = rFric; //Fricao contra rotação
+      this.rRes = rRes; //Resitencia da rotação
+      this.rThresh = rThresh; // Angulo maximo depois de rotacionar
       this.children = [];
       this.systems = [];
     }
